@@ -711,7 +711,7 @@ waline:
   placeholder: 说点什么
   path: window.location.pathname
   avatar: retro
-  meta: ['nick', 'mail', 'link']
+  meta: ['nick', 'mail']
   pageSize: 10
   lang: zh-CN
   highlight: true
