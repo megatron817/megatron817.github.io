@@ -1,5 +1,9 @@
 ---
 title: Hello World
+id: helloworld
+date: 2021-05-14 15:34:30
+index_img: https://z3.ax1x.com/2021/05/14/gskSiQ.jpg
+banner_img: https://z3.ax1x.com/2021/05/14/gskuW9.jpg
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 

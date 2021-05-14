@@ -490,7 +490,7 @@ post:
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
   # Path of the default post cover when `index_img` is not set. If both are empty, no image will be displayed
-  default_index_img: /img/bg/wallhaven-6oqzgq.jpg
+  default_index_img: /img/bg/wallhaven-43v396.jpg
 
   # 文章标题下方的元信息
   # Meta information below title
@@ -708,40 +708,18 @@ valine:
 # See: https://waline.js.org/
 waline:
   serverURL: 'https://ykcoder.vercel.app/'
-  placeholder: 请填写正确的昵称和邮箱，方便接收评论回复信息哦~
+  placeholder: 由于反垃圾评论，提交时可能需要等待几秒钟，无需重复点击提交。
   path: window.location.pathname
-  avatar: retro
+  avatar: robohash
   meta: ['nick', 'mail']
   pageSize: 10
   lang: zh-CN
   highlight: true
   avatarCDN:
   avatarForce: false
-  requiredFields: []
-  emojiCDN: '//i0.hdslb.com/bfs/emote/'
-  emojiMaps: {
-    "tv_doge": "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
-    "tv_亲亲": "a8111ad55953ef5e3be3327ef94eb4a39d535d06.png",
-    "tv_偷笑": "bb690d4107620f1c15cff29509db529a73aee261.png",
-    "tv_再见": "180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png",
-    "tv_冷漠": "b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png",
-    "tv_发怒": "34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png",
-    "tv_发财": "34db290afd2963723c6eb3c4560667db7253a21a.png",
-    "tv_可爱": "9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png",
-    "tv_吐血": "09dd16a7aa59b77baa1155d47484409624470c77.png",
-    "tv_呆": "fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png",
-    "tv_呕吐": "9f996894a39e282ccf5e66856af49483f81870f3.png",
-    "tv_困": "241ee304e44c0af029adceb294399391e4737ef2.png",
-    "tv_坏笑": "1f0b87f731a671079842116e0991c91c2c88645a.png",
-    "tv_大佬": "093c1e2c490161aca397afc45573c877cdead616.png",
-    "tv_大哭": "23269aeb35f99daee28dda129676f6e9ea87934f.png",
-    "tv_委屈": "d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png",
-    "tv_害羞": "a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png",
-    "tv_尴尬": "7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png",
-    "tv_微笑": "70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png",
-    "tv_思考": "90cf159733e558137ed20aa04d09964436f618a1.png",
-    "tv_惊吓": "0d15c7e2ee58e935adc6a7193ee042388adc22af.png",
-  }
+  requiredFields: ['nick', 'mail']
+  emojiCDN:
+  emojiMaps:
   anonymous:
 
 # 畅言 Changyan
@@ -984,7 +962,7 @@ static_prefix:
 
   valine: https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/
 
-  waline: https://cdn.jsdelivr.net/npm/@waline/client@0.14.8/dist/
+  waline: https://cdn.jsdelivr.net/npm/@waline/client@0.16.2/dist/
 
   gitalk: https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/
 

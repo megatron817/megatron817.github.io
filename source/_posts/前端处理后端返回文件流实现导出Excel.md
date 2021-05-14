@@ -1,6 +1,9 @@
 ---
 title: 前端处理后端返回文件流实现导出Excel
+id: exportexcel
 date: 2021-05-07 17:04:22
+index_img: https://z3.ax1x.com/2021/05/14/gskKzR.jpg
+banner_img: https://z3.ax1x.com/2021/05/14/gskGdO.jpg
 ---
 实现功能：
 
